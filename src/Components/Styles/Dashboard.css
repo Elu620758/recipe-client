@@ -1,0 +1,28 @@
+.card {
+    width: calc(50% - 20px); /* Adjust the width and margin as needed */
+    margin: 0 10px 10px; /* Adjust margin as needed */
+    box-sizing: border-box;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .home-receipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Media query to adjust the layout for smaller screens if needed */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
